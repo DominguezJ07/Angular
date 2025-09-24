@@ -1,0 +1,26 @@
+
+.simple-footer {
+  background: #000000;
+  border-top: 1px solid #000000;
+  padding: 25px 20px;
+  margin-top: 0; /* Cambiar de 50px a 0 */
+  text-align: center;
+}
+
+.simple-footer p {
+  margin: 0;
+  color: #6c757d;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .simple-footer {
+    padding: 20px 15px;
+  }
+  
+  .simple-footer p {
+    font-size: 12px;
+  }
+}
